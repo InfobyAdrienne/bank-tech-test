@@ -7,4 +7,9 @@ describe Bank do
     expect(bank.start_balance).to eq(0)
   end 
 
+  it 'should be able to add money to the account' do 
+    bank = Bank.new 
+    expect(bank.deposit(50)).to eq(50)
+  end 
+
 end 
