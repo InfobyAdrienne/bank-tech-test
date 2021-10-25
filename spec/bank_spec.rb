@@ -12,4 +12,10 @@ describe Bank do
     expect(bank.deposit(50)).to eq(50)
   end 
 
+  it 'should be able to make a withdrawal' do 
+    bank = Bank.new 
+    expect(bank.withdraw(50)).to eq(-50)
+  end 
+  
+
 end 
