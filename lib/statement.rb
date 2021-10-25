@@ -1,8 +1,12 @@
-class Statement 
-  attr_reader :timestamp
+require_relative 'account'
 
-def initialize 
-  @timestamp = Time.now.strftime("%d/%m/%Y")
-end 
+class Statement 
+  attr_reader :amount, :account, :timestamp
+
+  def initialize(amount, account)
+    @timestamp = Time.now.strftime("%d/%m/%Y")
+    @account = account
+    @amount = amount 
+  end 
 
 end 

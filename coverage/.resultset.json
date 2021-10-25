@@ -33,9 +33,14 @@
       "/Users/agalloway/Projects/tech-tests/bank-oct-21/lib/account.rb": {
         "lines": [
           1,
+          null,
+          1,
           1,
           null,
           1,
+          null,
+          1,
+          4,
           4,
           null,
           null,
@@ -45,14 +50,27 @@
           null,
           1,
           2,
+          2,
           null,
           null,
           1,
           2,
+          2,
           null,
+          null
+        ]
+      },
+      "/Users/agalloway/Projects/tech-tests/bank-oct-21/lib/statement.rb": {
+        "lines": [
+          1,
           null,
+          1,
+          1,
           null,
-          null,
+          1,
+          4,
+          4,
+          4,
           null,
           null,
           null
@@ -61,22 +79,9 @@
       "/Users/agalloway/Projects/tech-tests/bank-oct-21/spec/statement_spec.rb": {
         "lines": [
           1,
-          null,
-          1,
-          2,
-          2,
-          null,
-          1,
           1,
           null,
-          null
-        ]
-      },
-      "/Users/agalloway/Projects/tech-tests/bank-oct-21/lib/statement.rb": {
-        "lines": [
           1,
-          1,
-          null,
           1,
           1,
           null,
@@ -85,6 +90,6 @@
         ]
       }
     },
-    "timestamp": 1635165697
+    "timestamp": 1635175250
   }
 }
