@@ -3,7 +3,6 @@ class Account
 
   def initialize
     @balance = 0
-    @timestamp = Time.now.strftime("%d/%m/%Y")
   end
 
   def start_balance
@@ -17,4 +16,9 @@ class Account
   def withdraw(amount)
     @balance -= amount
   end 
+
+  # def format
+  #   @balance > 0 ? (puts "#{@timestamp}|| #{@amount} ||  ||  #{balance}")
+  #     : (puts "#{@timestamp}||  || #{@amount}  ||  #{balance}")
+  #   end
 end 
