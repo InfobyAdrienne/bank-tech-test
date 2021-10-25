@@ -5,6 +5,9 @@ class Account
 
   attr_reader :balance, :statements
 
+  HEADING = 'date || credit || debit || balance'
+
+
   def initialize
     @balance = 0
     @statements = []
@@ -21,6 +24,16 @@ class Account
 
   def withdraw(amount)
     @balance -= amount
-    @statements << Statement.new(amount, self)
+    @statements << Statement.new(-amount, self)
+  end
+
+  def balance_after(statement)
+    index = @statements.find_index(statement)
+    @statements[0..index].map(&:amount).sum
+  end
+
+  def print_statement
+    puts HEADING
+    @statements.reverse.map(&:format)
   end
 end 

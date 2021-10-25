@@ -27,6 +27,11 @@
           1,
           1,
           null,
+          null,
+          1,
+          null,
+          null,
+          null,
           null
         ]
       },
@@ -40,6 +45,9 @@
           1,
           null,
           1,
+          null,
+          null,
+          1,
           4,
           4,
           null,
@@ -56,6 +64,16 @@
           1,
           2,
           2,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
           null,
           null
         ]
@@ -67,15 +85,21 @@
           1,
           1,
           null,
+          null,
           1,
-          5,
-          5,
-          5,
+          7,
+          7,
+          7,
           null,
           null,
+          1,
+          0,
           null,
           null,
+          1,
           null,
+          0,
+          0,
           null,
           null,
           null
@@ -84,24 +108,26 @@
       "/Users/agalloway/Projects/tech-tests/bank-oct-21/spec/statement_spec.rb": {
         "lines": [
           1,
-          1,
           null,
           1,
+          4,
           2,
-          2,
           null,
-          null,
-          null,
+          1,
+          1,
           null,
           null,
           1,
           1,
           null,
+          null,
+          1,
+          1,
           null,
           null
         ]
       }
     },
-    "timestamp": 1635176354
+    "timestamp": 1635183829
   }
 }

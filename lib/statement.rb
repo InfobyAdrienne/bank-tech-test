@@ -9,4 +9,14 @@ class Statement
     @amount = amount 
   end 
 
-end 
+  def balance
+    @account.balance_after(self)
+  end
+
+  def format
+    # if the amount is > 0 it goes in the credit column 
+    @amount > 0 ? (puts "#{@timestamp}|| #{@amount} ||  ||  #{balance}")
+    : (puts "#{@timestamp}||  || #{@amount.abs}  ||  #{balance}")
+  end
+
+end

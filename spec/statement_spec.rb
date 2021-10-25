@@ -1,5 +1,4 @@
 require 'statement'
-require 'account'
 
 describe Statement do
   let(:statement) { Statement.new(:amount, :account) }
@@ -9,4 +8,11 @@ describe Statement do
     expect(statement.timestamp).to eq timestamp
   end
 
+  it 'stores the amount' do
+    expect(statement.amount).to eq :amount 
+  end
+
+  it 'stores the account' do
+    expect(statement.account).to eq :account
+  end
 end
