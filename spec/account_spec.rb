@@ -17,9 +17,9 @@ describe Account do
     expect(account.balance).to eq(-50)
   end 
 
-  # it 'should be able to make a deposit and withdrawal and get the correct total' do 
-  #   account = Account.new 
-
-  # end 
-  
+  it 'should be able to make a deposit and withdrawal and get the correct total' do 
+    account.deposit(50)
+    account.withdraw(10)
+    expect(account.balance).to eq(40)
+  end 
 end 
