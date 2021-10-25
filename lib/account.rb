@@ -1,9 +1,10 @@
-class Bank 
+class Account
+  attr_reader :balance
 
   def initialize
     @balance = 0
+    @timestamp = Time.now.strftime("%d/%m/%Y")
   end
-
 
   def start_balance
     @balance = 0
