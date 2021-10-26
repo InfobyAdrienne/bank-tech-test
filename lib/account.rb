@@ -2,6 +2,7 @@
 
 require_relative 'statement'
 
+# This is the Account call that allows the transactions to take place
 class Account
   START_BALANCE = 0
   HEADING = 'date || credit || debit || balance'

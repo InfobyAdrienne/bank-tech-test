@@ -2,6 +2,7 @@
 
 require_relative 'account'
 
+# This is the Statement class that helps generate and format the statement
 class Statement
   attr_reader :amount, :account, :timestamp
 
