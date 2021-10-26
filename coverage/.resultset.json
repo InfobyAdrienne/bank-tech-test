@@ -3,6 +3,8 @@
     "coverage": {
       "/Users/agalloway/Projects/tech-tests/bank-oct-21/spec/account_spec.rb": {
         "lines": [
+          null,
+          null,
           1,
           null,
           1,
@@ -27,25 +29,20 @@
           1,
           1,
           null,
-          null,
-          1,
-          null,
-          null,
-          null,
           null
         ]
       },
       "/Users/agalloway/Projects/tech-tests/bank-oct-21/lib/account.rb": {
         "lines": [
-          1,
           null,
-          1,
-          1,
           null,
           1,
           null,
           1,
+          1,
+          1,
           null,
+          1,
           null,
           1,
           4,
@@ -80,11 +77,12 @@
       },
       "/Users/agalloway/Projects/tech-tests/bank-oct-21/lib/statement.rb": {
         "lines": [
+          null,
+          null,
           1,
           null,
           1,
           1,
-          null,
           null,
           1,
           7,
@@ -99,6 +97,8 @@
           1,
           null,
           0,
+          0,
+          null,
           0,
           null,
           null,
@@ -107,6 +107,8 @@
       },
       "/Users/agalloway/Projects/tech-tests/bank-oct-21/spec/statement_spec.rb": {
         "lines": [
+          null,
+          null,
           1,
           null,
           1,
@@ -128,6 +130,6 @@
         ]
       }
     },
-    "timestamp": 1635183829
+    "timestamp": 1635265435
   }
 }

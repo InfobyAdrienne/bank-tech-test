@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'statement'
 
 describe Statement do
@@ -9,7 +11,7 @@ describe Statement do
   end
 
   it 'stores the amount' do
-    expect(statement.amount).to eq :amount 
+    expect(statement.amount).to eq :amount
   end
 
   it 'stores the account' do

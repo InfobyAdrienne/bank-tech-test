@@ -1,12 +1,12 @@
+# frozen_string_literal: true
+
 require_relative 'statement'
 
 class Account
-  START_BALANCE = 0 
-
-  attr_reader :balance, :statements
-
+  START_BALANCE = 0
   HEADING = 'date || credit || debit || balance'
 
+  attr_reader :balance, :statements
 
   def initialize
     @balance = 0
@@ -15,12 +15,12 @@ class Account
 
   def start_balance
     @balance = START_BALANCE
-  end 
+  end
 
   def deposit(amount)
     @balance += amount
     @statements << Statement.new(amount, self)
-  end 
+  end
 
   def withdraw(amount)
     @balance -= amount
@@ -36,4 +36,4 @@ class Account
     puts HEADING
     @statements.reverse.map(&:format)
   end
-end 
+end
